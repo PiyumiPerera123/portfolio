@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", typeEffect);// Start the animation
 const projectData = {
     retail: {
         title: "Retail Sales Analytics Dashboard",
-        img:["image/retail.PNG","image/retail2.PNG"],
+        img:["image/retail.png","image/retail2.png"],
         overview: "This project is an end-to-end retail sales analysis built using Python, SQL, and Power BI.The goal is to analyze business performance and      generate insights on revenue, products, and customer behavior through an interactive dashboard.",
         objectives: ["Identify high-revenue regions", "Analyze payment method distribution", "Segment customers by age"],
         tools: ["Python", "SQL", "Power BI"],
@@ -58,7 +58,7 @@ const projectData = {
 
    usa: {
       title: "USA Online Sales Dashboard (Excel)",
-      img:["image/usa.PNG"],
+      img:["image/usa.png"],
       overview: "An interactive Excel dashboard analyzing online sales, designed to track revenue trends, customer behavior, and product performance.",
       objectives: ["Analyze regional sales performance", "Identify monthly revenue trends and peak periods","Evaluate product category performance"],
       tools: [ "Microsoft Excel","Pivot Tables & Pivot Charts","Power Pivot", "Macros","Slicers"],
@@ -70,7 +70,7 @@ const projectData = {
 
    career: {
         title: "Career Aspirations Study",
-        img:["image/caeer.PNG","image/caeer2.PNG"],
+        img:["image/caeer.png","image/caeer2.png"],
         overview: "This project is a survey-based analysis of 3rd-year undergraduates in the Faculty of Science, University of Colombo. The study explores  students' career goals, preparedness levels, influencing factors, and challenges faced when planning their future.",
         objectives: ["Identify career barriers", "Compare research vs industry preference", "Gender-based goal analysis"],
         tools: ["Python", "Pandas", "Seaborn"],
@@ -82,7 +82,7 @@ const projectData = {
 
    workforce: {
         title: "Workforce Analytics",
-        img:["image/Workforce.PNG","image/Workforce2.PNG"],
+        img:["image/Workforce.png","image/Workforce2.png"],
         overview: "This project is an interactive Power BI dashboard built to analyze workforce data and generate key HR insights. It focuses on employee demographics, performance, hiring patterns, and turnover trends to support effective workforce planning.",
         objectives: ["Tenure analysis", "Turnover reason tracking", "Performance vs Demographics"],
         tools: ["Power BI", "DAX"],
@@ -95,7 +95,7 @@ const projectData = {
 
     churn: {
         title: "Customer Churn Analysis",
-        img:["image/churn2.PNG","image/churn3.PNG"],
+        img:["image/churn2.png","image/churn3.png"],
         overview: "This project analyzes customer churn behavior for SpeedyCall, a U.S.-based telecom provider. The goal was to identify key factors influencing customer churn and provide actionable insights to improve customer retention.",
         objectives: ["Analyze risk factors", "Contract type impact", "Demographic risk profiling"],
         tools: ["SPSS", "Statistical Testing"],
