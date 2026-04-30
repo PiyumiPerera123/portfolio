@@ -65,25 +65,28 @@ h5 {
          /* Stacks text and image vertically flex-direction: column; */
         
         flex-direction: column;
-        padding-top: 120px;     /* Prevents content from hiding under the header */
+        padding-top: 120px;      /*Prevents content from hiding under the header */
         text-align: center;
         height: auto;
         min-height: auto;
         gap: 30px;
+        
     }
 
-    /* 2. Resize the Main Heading */
+    /* 2. Resize the Main Heading 
     .hero h2 {
-        font-size: 1rem; /* Shorter name size for mobile */
+        font-size: 1rem;  Shorter name size for mobile 
          min-height: auto;
         letter-spacing: -0.5px;
-        margin-bottom: 5px;
+        margin-bottom: 5px;*/
+        display: inline-block;
     }
     .hero h2 span {
-        font-size: 1rem;
+       /*font-size: 1rem;
        min-height: auto;
         letter-spacing: -0.5px;
-        margin-bottom: 5px;
+        margin-bottom: 5px;*/
+        display: inline-block;
     }
 
     /* 3. Fix the Typewriter Text */
