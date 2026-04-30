@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyumi Perera | Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Piyumi Perera</div>
+    <nav>
+        <a href="#about">About</a>
+	<a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+       <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+   <div class="hero-content">
+   	 <h2>Hi, I'm <span>Piyumi Perera</span></h2>
+  	 <div class="typewriter-container">
+   		 <span class="typewriter">&nbsp;</span>
+
+   </div>
+   <br> 
+   <p>Data Analyst focused on building BI dashboards, KPI tracking, and transforming raw data into actionable insights. I work with tools like Power BI, Python, Excel, and SQL to analyze data, identify trends, and support data-driven decision-making.
+
+   </p>
+  <br> 
+    <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/piyumi-perera123" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/PiyumiPerera123/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:hpiyumiperera@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  
+    <div class="btn-group">
+        <a class="btn-primary" href="#projects">View Portfolio</a>
+        <a class="btn-outline" href="#contact">Contact Me</a>
+    </div>
+</div>
+
+
+<div class="img-container">
+<img src="image/portfolio_pic.jpeg" alt="Piyumi">
+</div>
+
+</section>
+
+
+
+<section id="about">
+
+    <h3><span class="text-blue">About</span> <span class="text-white">Me</span></h3>
+    <div class="about-flex-container">
+        
+        <div class="about-text-side">
+            <div class="card-box">
+                <p>I’m Piyumi Perera, a Data Analyst with a strong background in statistics, mathematics, and data analysis. I have hands-on experience building KPI dashboards and analyzing business data using Power BI, Looker Studio, and Excel.
+  <br> 
+  <br> 
+I work with SQL and Python to clean, analyze, and transform data into meaningful insights. I’m passionate about data visualization and creating clear, interactive dashboards that support better decision-making.
+  <br> 
+  <br> 
+Currently, I’m focused on improving my analytics and machine learning skills to grow as a data analyst.
+</p>
+            </div>
+        </div>
+<div class="about-image-side">
+            <div class="rotated-frame">
+                <img src="image/portfolio_aboutme_pic.jpeg" alt="Piyumi Perera">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h3>My <span class="text-blue">Projects</span></h3>
+    <div class="project-grid">
+        <div class="project-card" onclick="openProject('retail')">
+            <div class="project-img-wrapper">
+                <img src="image/retail.PNG" alt="Retail Sales">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>Retail Sales Dashboard</h4>
+                <h5>Retail data analysis project involving data cleaning, transformation, and visualization to uncover sales and payment patterns.</h5>
+                <div class="project-tags"><span>Python</span><span>SQL</span><span>Power BI</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+<div class="project-card" onclick="openProject('usa')">
+            <div class="project-img-wrapper">
+                <img src="image/usa.PNG" alt="USA Sales">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>USA Sales Performance</h4>
+                <h5>Data-driven Excel dashboard designed to track sales performance, identify trends, and support business decision-making.</h5>
+                <div class="project-tags"><span>Excel</span><span>Macros</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openProject('online')">
+            <div class="project-img-wrapper">
+                <img src="image/online.JPG" alt="Online Sales">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>Online Sales Analytics</h4>
+                <h5>Interactive Power BI dashboard analyzing online sales trends, customer segments, and product performance.</h5>
+                <div class="project-tags"><span>Power BI</span><span>Excel</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+
+        
+        <div class="project-card" onclick="openProject('career')">
+            <div class="project-img-wrapper">
+                <img src="image/career.PNG" alt="Career Study">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>Career Aspirations Study</h4>
+                <h5>This project is a survey-based analysis of undergraduates.The study explores Career aspirations among students.</h5>
+                <div class="project-tags"><span>Python</span><span>Seaborn</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openProject('workforce')">
+            <div class="project-img-wrapper">
+                <img src="image/workforce.PNG" alt="Workforce Analytics">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>Workforce Analytics</h4>
+                <h5>This project is an interactive HR dashboard, tracking employees to monitor performance and turnover.</h5>
+                <div class="project-tags"><span>Power BI</span><span>Excel</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openProject('churn')">
+            <div class="project-img-wrapper">
+                <img src="image/churn.PNG" alt="Customer Churn">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>Customer Churn Analysis</h4>
+                <h5>This analyzes customer churn behavior for SpeedyCall.The goal was to identify key factors influencing customer churn.</h5>
+                <div class="project-tags"><span>SPSS</span><span>Statistics</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+
+        <div class="project-card" onclick="openProject('insurance')">
+            <div class="project-img-wrapper">
+                <img src="image/insurance.jpg" alt="Insurance Claims">
+                <div class="project-overlay"><span class="text-blue">View Project</span></div>
+            </div>
+            <div class="project-info">
+                <h4>Insurance Claim Analysis</h4>
+               <h5>This project analyzes how demographic and health-related factors influence insurance claim amounts.</h5> <div class="project-tags"><span>R Language</span><span>Sampling</span></div>
+                <button class="view-btn">View Project</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="projectModal" class="case-study-modal">
+    <div class="modal-content-wrapper">
+        <span class="close-case-study" onclick="closeProject()">&times;</span>
+        <div id="caseStudyBody"></div>
+    </div>
+</div>
+
+
+
+<section id="skills">
+    <h3><span class="text-blue">My</span> <span class="text-white">Skills</span></h3>
+    <div class="skill-card-container">
+        <div class="skills-card">
+            <h4 class="skill-sub-topic">Technical Toolkit</h4>
+            <div class="tool-grid primary-tier">
+                <div class="tool-item">
+                    <img src="image/Power BI.png" alt="Power BI">
+                    <span>Power BI</span>
+                </div>
+                <div class="tool-item">
+                    <img src="image/excel.png" alt="Excel">
+                    <span>Excel</span>
+                </div>
+                <div class="tool-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="tool-item">
+                    <img src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" alt="SQL">
+                    <span>SQL</span>
+                </div>
+                <div class="tool-item">
+                    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="Looker">
+                    <span>Looker Studio</span>
+                </div>
+            </div>
+
+            <div class="tool-grid secondary-tier">
+                <div class="tool-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R">
+                    <span>R</span>
+                </div>
+                <div class="tool-item">
+                    <img src="image/SPSS.jpeg" alt="SPSS">
+                    <span>SPSS</span>
+                </div>
+                <div class="tool-item">
+                    <img src="image/googlesheet.png" alt="Sheets">
+                    <span>Google Sheets</span>
+                </div>
+                <div class="tool-item">
+                    <img src="image/eviews.png" alt="E-views"> <span>E-Views</span>
+                </div>
+                <div class="tool-item">
+                    <img src="image/Powerpoint.png" alt="PPT">
+                    <span>PowerPoint</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-flex-row">
+            <div class="side-skill-card">
+                <h4 class="skill-sub-topic"><i class="fas fa-microscope"></i> Analytical Skills</h4>
+                <div class="pills-container">
+                    <span class="skill-pill">Data Cleaning</span>
+                    <span class="skill-pill">Descriptive Statistics</span>
+                    <span class="skill-pill">EDA</span>
+                    <span class="skill-pill">Regression Analysis</span>
+                    <span class="skill-pill">Time Series Forecasting</span>
+                </div>
+            </div>
+
+            <div class="side-skill-card">
+                <h4 class="skill-sub-topic"><i class="fas fa-lightbulb"></i> Soft Skills</h4>
+                <div class="pills-container">
+                    <span class="skill-pill">Data Storytelling</span>
+                    <span class="skill-pill">Attention to Detail</span>
+                    <span class="skill-pill">Problem Solving</span>
+                    <span class="skill-pill">Communication</span>
+                    <span class="skill-pill">Team Collaboration</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="education">
+    <h3><span class="text-blue">My</span> <span class="text-white">Education</span></h3> 
+    <div class="timeline-container">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022 - 2025</div>
+            <div class="timeline-content">
+                <h4>BSc in Industrial Statistics and Mathematical Finance</h4>
+                <p class="university">University of Colombo</p>
+                <div class="edu-highlights">
+                    <span><i class="star"></i> Second Class Honours</span>
+                    <span> Dean’s List (Final Year)</span>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section id="certificates">
+    <h4 class="sub-heading-blue">Courses & Certificates</h4>
+    <div class="cert-grid-optimized">
+        <div class="cert-box-modern">
+            <div class="cert-header">
+                <i class="fas fa-chart-bar"></i>
+                <h5>Power BI</h5>
+            </div>
+            <ul class="cert-list">
+                <li onclick="openCert('image/cert_pbi.jpeg')">Data Visualization & Analytics <span>University Of Moratuwa</span> <i class="fas fa-external-link-alt"></i></li>
+            </ul>
+        </div>
+
+        <div class="cert-box-modern">
+            <div class="cert-header">
+                <i class="fas fa-file-excel"></i>
+                <h5>Excel</h5>
+            </div>
+            <ul class="cert-list">
+                <li onclick="openCert('image/cert_excel_fun.jpeg')">Fundamentals for Data Analysis <span>Coursera</span> <i class="fas fa-external-link-alt"></i></li>
+                <li onclick="openCert('image/cert_excel_viz.jpeg')">Data Visualization in Excel <span>Coursera</span> <i class="fas fa-external-link-alt"></i></li>
+            </ul>
+        </div>
+
+        <div class="cert-box-modern">
+            <div class="cert-header">
+                <i class="fab fa-python"></i>
+                <h5>Python</h5>
+            </div>
+            <ul class="cert-list">
+                <li onclick="openCert('image/cert_py_da.jpeg')">Data Analysis with Python <span>Coursera</span> <i class="fas fa-external-link-alt"></i></li>
+    
+            </ul>
+        </div>
+
+        <div class="cert-box-modern">
+            <div class="cert-header">
+                <i class="fas fa-database"></i>
+                <h5>SQL</h5>
+            </div>
+            <ul class="cert-list">
+                <li onclick="openCert('image/cert_sql_ds.jpeg')">SQL for Data Science <span>Coursera</span> <i class="fas fa-external-link-alt"></i></li>
+                <li onclick="openCert('image/cert_sql_intro.jpeg')">Introduction to SQL <span>SoloLearn</span> <i class="fas fa-external-link-alt"></i></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+   <section id="contact">
+    <h3><span class="text-blue">Contact</span> <span class="text-white">Me</span></h3><div class="contact-details">
+        <div class="c-line"><span class="c-label">Email</span><span>: hpiyumiperera@gmail.com</span></div>
+        <div class="c-line"><span class="c-label">LinkedIn</span><span>: <a href="https://linkedin.com/in/piyumi-perera123" style="color:#fff;">piyumi-perera123</a></span></div>
+        <div class="c-line"><span class="c-label">Location</span><span>: Sri Lanka</span></div>
+    </div>
+    <form action="https://formspree.io/f/xzdoplwp" method="POST" class="contact-form">
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
+    <input type="email" name="_replyto" placeholder="Email" class="full-width" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="btn-submit">Send Message</button>
+</form>
+</section>
+
+<div id="pModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeP()">&times;</span>
+        <div id="modalBody" class="modal-body"></div>
+    </div>
+</div>
+
+<footer><p>© 2026 Piyumi Perera | Data Analyst</p></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
