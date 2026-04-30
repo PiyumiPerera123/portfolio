@@ -2,13 +2,13 @@
 
 Welcome to My Data Analytics Portfolio
 
- **Live Portfolio:** (https://piyumiperera123.github.io/portfolio/)
+ **Live Portfolio:** https://piyumiperera123.github.io/portfolio/
 
 ---
 <p align="center">
   <img src="image/banner.png" width="800"/>
 </p>
----
+
 
 ##  Highlights
 
