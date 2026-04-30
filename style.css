@@ -58,6 +58,57 @@ h5 {
     color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    /* Reduce overall section padding so content isn't squashed */
+    section { 
+        padding: 80px 5%; 
+    }
+
+    /* Shrink the large headings so they don't wrap awkwardly */
+    h3, h2 { 
+        font-size: 1.8rem; 
+        margin-bottom: 30px;
+    }
+    
+    h4 { 
+        font-size: 1.2rem; 
+    }
+
+    /* Adjust the header for mobile */
+    header {
+        padding: 15px 5%;
+    }
+
+    nav {
+        display: none; /* Recommended: Hide the desktop nav or use a burger menu */
+    }
+
+    /* Hero/Home Section Alignment */
+    .home-container { /* Assuming this is your wrapper class */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .home-text {
+        order: 2; /* Moves text below the image */
+    }
+
+    .home-image {
+        order: 1; /* Moves image to the top */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-image img {
+        width: 70%; /* Prevents the profile picture from being too huge */
+        max-width: 250px;
+    }
+}
+
 /* About Section Flex Layout */
 .about-flex-container {
     display: flex;
