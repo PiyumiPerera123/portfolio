@@ -63,6 +63,8 @@ h5 {
     /* 1. Fix the Hero Section Layout */
     .hero {
          /* Stacks text and image vertically flex-direction: column; */
+        
+        flex-direction: column;
         padding-top: 120px;     /* Prevents content from hiding under the header */
         text-align: center;
         height: auto;
