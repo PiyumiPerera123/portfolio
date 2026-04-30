@@ -76,6 +76,12 @@ h5 {
     .hero h2 {
         font-size: 1rem; /* Shorter name size for mobile */
          min-height: auto;
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+    }
+    .hero h2 span {
+        font-size: 1.6rem;
+        display: inline-block; 
     }
 
     /* 3. Fix the Typewriter Text */
