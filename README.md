@@ -1,28 +1,31 @@
 #  Data Analytics Portfolio
 
-Welcome! This repository contains my personal portfolio website showcasing my data analytics projects.
+Welcome to My Data Analytics Portfolio
 
- **Live Portfolio:** [(https://piyumiperera123.github.io/portfolio/)]
+ **Live Portfolio:** (https://piyumiperera123.github.io/portfolio/)
 
 ---
+<p align="center">
+  <img src="image/banner.png" width="800"/>
+</p>
+---
 
-##  About Me
-Data Analyst skilled in Power BI, Python, SQL, Excel, and R.
+##  Highlights
+
+- Power BI Dashboards  
+- Python Data Analysis  
+- SQL & Business Insights  
 
 ---
 
 ##  Projects
 - Retail Sales Dashboard  
-  https://github.com/PiyumiPerera123/retail-sales-analytics-dashboard/
-
 - Online Sales Dashboard  
-  https://github.com/PiyumiPerera123/Online-Sales-Analytics-Dashboard-/
-
-- Excel Sales Dashboard  
-  https://github.com/PiyumiPerera123/excel-online-sales-dashboard/
+- Excel Sales Dashboard 
+- Workforce Analytics  
 
 ---
 
 ##  Contact
 Email: hpiyumiperera@gmail.com  
-LinkedIn: [(https://www.linkedin.com/in/piyumi-perera123/)]
+LinkedIn: (https://www.linkedin.com/in/piyumi-perera123/)
