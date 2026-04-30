@@ -82,7 +82,7 @@ const projectData = {
 
    workforce: {
         title: "Workforce Analytics",
-        img:["image/Workforce.png","image/Workforce2.png"],
+        img:["image/workforce.png","image/workforce2.png"],
         overview: "This project is an interactive Power BI dashboard built to analyze workforce data and generate key HR insights. It focuses on employee demographics, performance, hiring patterns, and turnover trends to support effective workforce planning.",
         objectives: ["Tenure analysis", "Turnover reason tracking", "Performance vs Demographics"],
         tools: ["Power BI", "DAX"],
