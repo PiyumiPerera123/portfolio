@@ -74,13 +74,13 @@ h5 {
 
     /* 2. Resize the Main Heading */
     .hero h2 {
-        font-size: 1.1rem; /* Shorter name size for mobile */
+        font-size: 1rem; /* Shorter name size for mobile */
          min-height: auto;
     }
 
     /* 3. Fix the Typewriter Text */
     .typewriter {
-        font-size: 1rem;    /* Smaller font so it doesn't overflow */
+        font-size: 0.9rem;    /* Smaller font so it doesn't overflow */
         white-space: normal;  /* Allows the text to wrap if it's a long title */
         min-height: auto;
         display: block;
