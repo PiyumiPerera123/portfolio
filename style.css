@@ -62,7 +62,7 @@ h5 {
 @media (max-width: 768px) {
     /* 1. Fix the Hero Section Layout */
     .hero {
-        flex-direction: column; /* Stacks text and image vertically */
+         /* Stacks text and image vertically flex-direction: column; */
         padding-top: 120px;     /* Prevents content from hiding under the header */
         text-align: center;
         height: auto;
@@ -72,7 +72,7 @@ h5 {
 
     /* 2. Resize the Main Heading */
     .hero h2 {
-        font-size: 1.7rem; /* Shorter name size for mobile */
+        font-size: 1.5rem; /* Shorter name size for mobile */
         line-height: 1.2;
     }
 
@@ -98,9 +98,9 @@ h5 {
 
     .btn-group {
         display: flex;
-    
+     justify-content: center;
         gap: 15px;
-        align-items: center;
+        */align-items: center;+/
     }
 
     .btn-outline {
