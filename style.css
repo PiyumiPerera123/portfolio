@@ -58,54 +58,53 @@ h5 {
     color: #ffffff;
 }
 
+/* --- CRITICAL MOBILE FIX --- */
 @media (max-width: 768px) {
-    /* Reduce overall section padding so content isn't squashed */
-    section { 
-        padding: 80px 5%; 
-    }
-
-    /* Shrink the large headings so they don't wrap awkwardly */
-    h3, h2 { 
-        font-size: 1.8rem; 
-        margin-bottom: 30px;
-    }
-    
-    h4 { 
-        font-size: 1.2rem; 
-    }
-
-    /* Adjust the header for mobile */
-    header {
-        padding: 15px 5%;
-    }
-
-    nav {
-        display: none; /* Recommended: Hide the desktop nav or use a burger menu */
-    }
-
-    /* Hero/Home Section Alignment */
-    .home-container { /* Assuming this is your wrapper class */
-        display: flex;
-        flex-direction: column;
+    /* 1. Fix the Hero Section Layout */
+    .hero {
+        flex-direction: column; /* Stacks text and image vertically */
+        padding-top: 120px;     /* Prevents content from hiding under the header */
         text-align: center;
-        align-items: center;
-        gap: 20px;
+        height: auto;
+        min-height: auto;
+        gap: 30px;
     }
 
-    .home-text {
-        order: 2; /* Moves text below the image */
+    /* 2. Resize the Main Heading */
+    .hero h2 {
+        font-size: 2.2rem; /* Shorter name size for mobile */
+        line-height: 1.2;
     }
 
-    .home-image {
-        order: 1; /* Moves image to the top */
-        width: 100%;
-        display: flex;
+    /* 3. Fix the Typewriter Text */
+    .typewriter {
+        font-size: 1.4rem;    /* Smaller font so it doesn't overflow */
+        white-space: normal;  /* Allows the text to wrap if it's a long title */
+        min-height: auto;
+        display: block;
+    }
+
+    /* 4. Fix the Profile Image Size */
+    .img-container img {
+        width: 220px;  /* Smaller circle for mobile */
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    /* 5. Center the Social Icons and Buttons */
+    .hero-socials {
         justify-content: center;
     }
 
-    .home-image img {
-        width: 70%; /* Prevents the profile picture from being too huge */
-        max-width: 250px;
+    .btn-group {
+        display: flex;
+        flex-direction: column; /* Stacks 'Download CV' and 'Contact' buttons */
+        gap: 15px;
+        align-items: center;
+    }
+
+    .btn-outline {
+        margin-left: 0; /* Removes the side margin from laptop view */
     }
 }
 
