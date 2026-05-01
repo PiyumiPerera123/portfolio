@@ -88,7 +88,7 @@ h5 {
 
     /* 3. Fix the Typewriter Text */
     .typewriter {
-        font-size: 0.9rem;    /* Smaller font so it doesn't overflow */
+        font-size: 1.8rem !important;    /* Smaller font so it doesn't overflow */
         white-space: normal;  /* Allows the text to wrap if it's a long title */
         min-height: auto;
         display: block;
