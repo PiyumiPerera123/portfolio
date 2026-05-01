@@ -75,14 +75,14 @@ h5 {
 
     /* 2. Resize the Main Heading*/
     .hero h2 {
-        font-size: 1.8rem !important;      /* Adjusts 'I am' size */
+        font-size: 2rem !important;      /* Adjusts 'I am' size */
         line-height: 1.1;        /* Reduces space between lines */
         display: inline-block;
         margin-bottom: 5px;
     }
 
     .hero h2 span {
-        font-size: 1.8rem !important;
+        font-size: 2rem !important;
         display: inline-block;
     }
 
